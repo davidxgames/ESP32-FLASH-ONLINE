@@ -1,5 +1,5 @@
 <img src="imagenes/ESP32+c.png"
-height="300">
+height="250">
 
 
 
