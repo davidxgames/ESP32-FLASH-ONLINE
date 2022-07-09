@@ -1,4 +1,4 @@
-<img src="ESP32 MASTER.png"
+<img src="imagenes/ESP32.png"
 height="300">
 
 
