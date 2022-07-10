@@ -10,8 +10,10 @@ Esta pagina te servira para programar el esp32 sin nesecidad de un programa, sol
 Debo enfatisar que este proyecto de flashear el ESP32 de forma online no es mio, todos los creditos y gracias a [Witnessmenow](https://github.com/witnessmenow/ESP-Web-Tools-Tutorial) el es el creador.
 
 <img src="imagenes/dividir.jpg"
-height="10">
+height="20">
 
 ##### MOD CARTUCHO NES CARATULAS Y RELOJ
+
+[PROGRAMAR ESP32](cartnes.md).
 
 
