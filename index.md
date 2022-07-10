@@ -9,6 +9,15 @@ Esta pagina te servira para programar el esp32 sin nesecidad de un programa, sol
 
 Debo enfatisar que este proyecto de flashear el ESP32 de forma online no es mio, todos los creditos y gracias a [Witnessmenow](https://github.com/witnessmenow/ESP-Web-Tools-Tutorial) el es el creador.
 
+
+<img src="imagenes/dividir.jpg"
+height="20">
+
+###### BLUERETRO
+
+[PROGRAMAR ESP32](blueretro.md).
+
+
 <img src="imagenes/dividir.jpg"
 height="20">
 
