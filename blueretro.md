@@ -15,6 +15,6 @@ se actualizara cuando salga una nueva version
 height="20">
 
 ### N64
-<script type="module" src="web/install-button.js?module"></script>
+<script type="module" src="web/install-button.js?module">conectar</script>
 <esp-web-install-button manifest="proyectos/blueretro/n64/manifest.json"></esp-web-install-button>
 
