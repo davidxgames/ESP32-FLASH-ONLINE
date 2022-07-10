@@ -14,6 +14,6 @@ height="20">
 
 ##### MOD CARTUCHO NES CARATULAS Y RELOJ
 
-[PROGRAMAR ESP32](cartnes.md).
+[PROGRAMAR ESP32](cartnes.html).
 
 
