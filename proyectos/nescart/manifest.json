@@ -1,5 +1,5 @@
 {
-  "name": "CARTUCHO-NES",
+  "name": "nescart",
   "builds": [
     {
       "chipFamily": "ESP32",
