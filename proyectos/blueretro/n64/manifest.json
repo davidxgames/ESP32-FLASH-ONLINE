@@ -1,5 +1,5 @@
 {
-  "name": "blueretro_ps2",
+  "name": "blueretro_n64",
   "builds": [
     {
       "chipFamily": "ESP32",
