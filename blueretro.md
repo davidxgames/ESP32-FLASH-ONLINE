@@ -14,5 +14,5 @@ PRUEBA
 
 ### N64
 <script type="module" src="web/install-button.js?module"></script>
-<esp-web-install-button manifest="proyectos/blueretro/N64/manifest.json"></esp-web-install-button>
+<esp-web-install-button manifest="proyectos/blueretro/n64/manifest.json"></esp-web-install-button>
 
