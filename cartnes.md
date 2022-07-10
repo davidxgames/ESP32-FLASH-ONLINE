@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
-    <h1>MOD CARTUCHO NES</h1>
+#### MOD CARTUCHO NES
     <script type="module" src="install-button.js?module"></script>
     <esp-web-install-button manifest="proyectos/nescart/manifest.json"></esp-web-install-button>
-</body>
-</html>
+
