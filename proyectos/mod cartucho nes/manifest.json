@@ -10,12 +10,6 @@
         { "path": "boot_app0.bin", "offset": 57344 },
         { "path": "GooglePhotoClock.ino.bin", "offset": 65536 }
       ]
-    },
-    {
-      "chipFamily":
-      "parts": [
-        { "path": "esp8266.bin", "offset": 0 }
-      ]
     }
   ]
 }
