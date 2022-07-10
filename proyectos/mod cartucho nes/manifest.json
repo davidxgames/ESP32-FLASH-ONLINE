@@ -1,5 +1,5 @@
 {
-  "name": "PS2",
+  "name": "CARTUCHO NES",
   "builds": [
     {
       "chipFamily": "ESP32",
