@@ -1,5 +1,5 @@
 {
-  "name": "nescart3",
+  "name": "nescart",
   "builds": [
     {
       "chipFamily": "ESP32",
@@ -8,7 +8,7 @@
         { "path": "boot_app0.bin", "offset": 57344 },
         { "path": "GooglePhotoClock.ino.bin", "offset": 65536 },
         { "path": "GooglePhotoClock.ino.bootloader.bin", "offset": 4096 },
-        { "path": "GooglePhotoClock.ino.partitions.bin", "offset": 32768 }         
+        { "path": "GooglePhotoClock.ino.partitions.bin", "offset": 32768 }   
       ]
     }
   ]
