@@ -20,30 +20,30 @@ import{d as e,r as t,_ as o,n as l,s as i,$ as n,y as a}from"./connect-f67814ca.
 `;let r=class extends i{render(){return n`
       <ewt-dialog
         open
-        heading="No port selected"
+        heading="Puerto NO Seleccionado"
         scrimClickAction
         @closed=${this._handleClose}
       >
         <div>
-          If you didn't select a port because you didn't see your device listed,
-          try the following steps:
+Si no seleccionó un puerto porque no vio su dispositivo en la lista,
+           prueba los siguientes pasos:
         </div>
         <ol>
           <li>
-            Make sure that the device is connected to this computer (the one
-            that runs the browser that shows this website)
+           Asegúrese de que el dispositivo esté conectado a esta computadora (la
+             que ejecuta el navegador que muestra este sitio web)
           </li>
           <li>
-            Most devices have a tiny light when it is powered on. If yours has
-            one, make sure it is on.
+            La mayoría de los dispositivos tienen una pequeña luz cuando están encendidos. si el tuyo tiene
+             una, asegúrese de que esté encendida.
           </li>
           <li>
-            Make sure that the USB cable you use can be used for data and is not
-            a power-only cable.
+            Asegúrese de que el cable USB que utilice se pueda utilizar para datos y no
+             un cable de sólo alimentación.
           </li>
           <li>
-            Make sure you have the right drivers installed. Below are the
-            drivers for common chips used in ESP devices:
+            Asegúrese de tener los drivers correctos instalados. Abajo están los
+             drivers para chips comunes utilizados en dispositivos ESP:
             <ul>
               <li>
                 CP2102 drivers:
