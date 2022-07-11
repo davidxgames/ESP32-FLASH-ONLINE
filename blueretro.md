@@ -4,7 +4,7 @@
 height="300">
 
 
-###### version de blueretro 1.6.3
+## version de blueretro 1.6.3
 se actualizara cuando salga una nueva version
 
 ### PS2
