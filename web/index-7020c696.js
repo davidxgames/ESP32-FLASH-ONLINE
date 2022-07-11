@@ -25,24 +25,24 @@ import{d as e,r as t,_ as o,n as l,s as i,$ as n,y as a}from"./connect-f67814ca.
         @closed=${this._handleClose}
       >
         <div>
-Si no seleccionó un puerto porque no vio su dispositivo en la lista,
+Camarada si no seleccionaste un puerto porque no viste tu dispositivo en la lista,
            prueba los siguientes pasos:
         </div>
         <ol>
           <li>
-           Asegúrese de que el dispositivo esté conectado a esta computadora (la
+           Asegúrate de que el dispositivo esté conectado a esta computadora (la
              que ejecuta el navegador que muestra este sitio web)
           </li>
           <li>
             La mayoría de los dispositivos tienen una pequeña luz cuando están encendidos. si el tuyo tiene
-             una, asegúrese de que esté encendida.
+             una, asegurate de que esté encendida.
           </li>
           <li>
-            Asegúrese de que el cable USB que utilice se pueda utilizar para datos y no
+            Asegúrate de que el cable USB que utilice se pueda utilizar para datos y no
              un cable de sólo alimentación.
           </li>
           <li>
-            Asegúrese de tener los drivers correctos instalados. Abajo están los
+            Asegúrate de tener los drivers correctos instalados. Abajo están los
              drivers para chips comunes utilizados en dispositivos ESP:
             <ul>
               <li>
