@@ -95,7 +95,7 @@ Si no seleccionó un puerto porque no vio su dispositivo en la lista,
               <ewt-button
                 slot="primaryAction"
                 dialogAction="close"
-                label="Try Again"
+                label="Volver A Intentar"
                 @click=${this.doTryAgain}
               ></ewt-button>
 
@@ -109,7 +109,7 @@ Si no seleccionó un puerto porque no vio su dispositivo en la lista,
               <ewt-button
                 slot="primaryAction"
                 dialogAction="close"
-                label="Close"
+                label="Cerrar"
               ></ewt-button>
             `}
       </ewt-dialog>
