@@ -103,7 +103,7 @@ Si no seleccionó un puerto porque no vio su dispositivo en la lista,
                 no-attention
                 slot="secondaryAction"
                 dialogAction="close"
-                label="Cancel"
+                label="Cancelar"
               ></ewt-button>
             `:n`
               <ewt-button
