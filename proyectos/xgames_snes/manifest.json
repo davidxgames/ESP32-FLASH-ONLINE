@@ -1,0 +1,15 @@
+{
+  "name": "xgames_snes",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "boot_app0.bin", "offset": 57344 },
+        { "path": "gamepadx.ino.bin", "offset": 65536 },
+        { "path": "gamepadx.ino.bootloader.bin", "offset": 4096 },
+        { "path": "gamepadx.ino.partitions.bin", "offset": 32768 }   
+      ]
+    }
+  ]
+}
