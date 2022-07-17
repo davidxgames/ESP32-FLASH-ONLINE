@@ -13,7 +13,12 @@ Debo enfatisar que este proyecto de flashear el ESP32 de forma online no es mio,
 ### CONTROLES BLUETOOTH
 
 <img src="imagenes/LOGO CONTROLES.png"
-height="300">
+height="200">
+
+En este proyecto aprenderemos a convertir nuestros controles de nes, snes, sega, etc.. en controles bluetooth
+
+[PROGRAMAR ESP32 PARA CREAR CONTROLES BLUETOOTH](controlesbluetooth.md).
+
 
 <img src="imagenes/dividir.jpg"
 height="20">
