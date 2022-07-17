@@ -537,7 +537,7 @@ var e=function(t,i){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Arr
       <ewt-button
         slot="primaryAction"
         dialogAction="ok"
-        label="Close"
+        label="Cerrar"
       ></ewt-button>
     `,!1]}_renderDashboard(){const e=this._info.name;let t;return t=N`
       <div class="table-row">
@@ -754,9 +754,9 @@ var e=function(t,i){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Arr
       `;else if(this._installConfirmed)if(this._installState&&"initializing"!==this._installState.state&&"manifest"!==this._installState.state&&"preparing"!==this._installState.state)if("erasing"===this._installState.state)e="Installing",t=this._renderProgress("Erasing"),i=!0;else if("writing"===this._installState.state||"finished"===this._installState.state&&void 0===this._client){let o,n;e="Installing","finished"===this._installState.state?n="Wrapping up":this._installState.details.percentage<4?n="Installing":o=this._installState.details.percentage,t=this._renderProgress(N`
           ${n?N`${n}<br />`:""}
           <br />
-          This will take
-          ${"ESP8266"===this._installState.chipFamily?"a minute":"2 minutes"}.<br />
-          Keep this page visible to prevent slow down
+          Camarada esto tomará
+          ${"ESP8266"===this._installState.chipFamily?"a minute":"2 minutos"}.<br />
+         Manten esta página visible para evitar errores.
         `,o),i=!0}else if("finished"===this._installState.state){e=void 0;const i=null!==this._client;t=N`
         <ewt-page-message
           .icon=${"🎉"}
