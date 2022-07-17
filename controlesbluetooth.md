@@ -1,4 +1,4 @@
-#CONTROLES BLUETOOTH DIY
+# CONTROLES BLUETOOTH DIY
 
 <img src="imagenes/LOGO CONTROLES.png"
 height="200">
