@@ -1,14 +1,12 @@
-[VOLVER ](index.md).
 
-<img src=""
-height="300">
+
 
 
 #### ?
 
 PRUEBA
 
-### MOD CARTUCHO NES
+### ---
 s
 
 <script type="module" src="web/install-button.js?module"></script>
@@ -24,17 +22,4 @@ height="5">
 
 
 
-  
-#### 8
 
-
-rr
-<img src="imagenes/line.png"
-height="5">
-
-### 8
-f
-
-<img src=""
-height="300">
-### d
