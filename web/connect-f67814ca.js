@@ -780,17 +780,17 @@ var e=function(t,i){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Arr
       `);else e="Installing",t=this._renderProgress("Preparing installation"),i=!0;else{e="Confirm Installation";const i=o?"update to":"install";t=N`
         ${o?N`Your device is running
               ${this._info.firmware}&nbsp;${this._info.version}.<br /><br />`:""}
-        Do you want to ${i}
+        Quieres ${i}
         ${this._manifest.name}&nbsp;${this._manifest.version}?
         ${this._installErase?N`<br /><br />Se borraran los todos datos de tu ESP.`:""}
         <ewt-button
           slot="primaryAction"
-          label="Install"
+          label="Instalar"
           @click=${this._confirmInstall}
         ></ewt-button>
         <ewt-button
           slot="secondaryAction"
-          label="Back"
+          label="Volver"
           @click=${()=>{this._state="DASHBOARD"}}
         ></ewt-button>
       `}return[e,t,i,!1]}_renderLogs(){let e;return e=N`
@@ -802,12 +802,12 @@ var e=function(t,i){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Arr
       ></ewt-button>
       <ewt-button
         slot="secondaryAction"
-        label="Download Logs"
+        label="Bajar Logs"
         @click=${()=>{Ed(this.shadowRoot.querySelector("ewt-console").logs(),"esp-web-tools-logs.txt"),this.shadowRoot.querySelector("ewt-console").reset()}}
       ></ewt-button>
       <ewt-button
         slot="secondaryAction"
-        label="Reset Device"
+        label="Reseteando Dispositivo"
         @click=${async()=>{await this.shadowRoot.querySelector("ewt-console").reset()}}
       ></ewt-button>
     `,["Logs",e,!1]}willUpdate(e){e.has("_state")&&("ERROR"!==this._state&&(this._error=void 0),"PROVISION"===this._state?(this._ssids=void 0,this._busy=!0,this._client.scan().then((e=>{this._busy=!1,this._ssids=e,this._selectedSsid=e.length?0:-1}),(()=>{this._busy=!1,this._ssids=null,this._selectedSsid=-1}))):this._provisionForce=!1,"INSTALL"===this._state&&(this._installConfirmed=!1,this._installState=void 0))}firstUpdated(e){super.firstUpdated(e),this._initialize()}updated(e){super.updated(e),e.has("_state")&&this.setAttribute("state",this._state),"PROVISION"===this._state&&(e.has("_selectedSsid")&&-1===this._selectedSsid?this._focusFormElement("ewt-textfield[name=ssid]"):e.has("_ssids")&&this._focusFormElement())}_focusFormElement(e="ewt-textfield, ewt-select"){const t=this.shadowRoot.querySelector(e);t&&t.updateComplete.then((()=>setTimeout((()=>t.focus()),100)))}async _initialize(e=!1){if(null===this.port.readable||null===this.port.writable)return this._state="ERROR",void(this._error="Serial port is not readable/writable. Close any other application using it and try again.");try{this._manifest=await(async e=>{const t=new URL(e,location.toString()).toString(),i=await fetch(t),o=await i.json();return"new_install_skip_erase"in o&&(console.warn('Manifest option "new_install_skip_erase" is deprecated. Use "new_install_prompt_erase" instead.'),o.new_install_skip_erase&&(o.new_install_prompt_erase=!0)),o})(this.manifestPath)}catch(e){return this._state="ERROR",void(this._error="Failed to download manifest")}if(0===this._manifest.new_install_improv_wait_time)return void(this._client=null);const t=new gn(this.port,this.logger);t.addEventListener("state-changed",(()=>{this.requestUpdate()})),t.addEventListener("error-changed",(()=>this.requestUpdate()));try{const i=e?void 0!==this._manifest.new_install_improv_wait_time?1e3*this._manifest.new_install_improv_wait_time:1e4:1e3;this._info=await t.initialize(i),this._client=t,t.addEventListener("disconnect",this._handleDisconnect)}catch(e){this._info=void 0,e instanceof un?(this._state="ERROR",this._error="Serial port is not ready. Close any other application using it and try again."):(this._client=null,this.logger.error("Improv initialization failed.",e))}}_startInstall(e){this._state="INSTALL",this._installErase=e,this._installConfirmed=!1}async _confirmInstall(){this._installConfirmed=!0,this._installState=void 0,this._client&&await this._closeClientWithoutEvents(this._client),this._client=void 0,kd((e=>{this._installState=e,"finished"===e.state&&bt(100).then((()=>this._initialize(!0))).then((()=>this.requestUpdate()))}),this.port,this.logger,this.manifestPath,this._installErase)}async _doProvision(){this._busy=!0,this._wasProvisioned=this._client.state===mn.PROVISIONED;const e=-1===this._selectedSsid?this.shadowRoot.querySelector("ewt-textfield[name=ssid]").value:this._ssids[this._selectedSsid].name,t=this.shadowRoot.querySelector("ewt-textfield[name=password]").value;try{await this._client.provision(e,t)}catch(e){return}finally{this._busy=!1,this._provisionForce=!1}}async _handleClose(){this._client&&await this._closeClientWithoutEvents(this._client),((e,t,i,o)=>{o=o||{};const n=new CustomEvent(t,{bubbles:void 0===o.bubbles||o.bubbles,cancelable:Boolean(o.cancelable),composed:void 0===o.composed||o.composed,detail:i});e.dispatchEvent(n)})(this,"closed"),this.parentNode.removeChild(this)}get _isSameFirmware(){var e;return!!this._info&&((null===(e=this.overrides)||void 0===e?void 0:e.checkSameFirmware)?this.overrides.checkSameFirmware(this._manifest,this._info):this._info.firmware===this._manifest.name)}get _isSameVersion(){return this._isSameFirmware&&this._info.version===this._manifest.version}async _closeClientWithoutEvents(e){e.removeEventListener("disconnect",this._handleDisconnect),await e.close()}}Id.styles=[Ad,ne`
