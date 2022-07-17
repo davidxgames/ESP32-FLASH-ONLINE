@@ -1,4 +1,4 @@
-INICIO(index.md)
+[PAGINA PRINCIPAL](index.md)
 
 # CONTROLES BLUETOOTH DIY
 
