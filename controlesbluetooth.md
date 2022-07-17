@@ -7,8 +7,7 @@ height="200">
 
 En este proyecto aprenderemos a convertir nuestros controles de nes, snes, sega, etc.. en controles bluetooth.
 Este proyecto esta basado en el trabajo de [lemmingDev](https://github.com/lemmingDev)
-si no fuera por su trabajo y por compartirlo esto no seria posible. Tambien quiero agradecer a Erving Olvera
-que siempre esta ai para ayudarme cuando tengo alguna duda, SPYRO GAMES!!!
+si no fuera por su trabajo y por compartirlo esto no seria posible.
 
 ### Nuestro primer control sera el de SNES
 
