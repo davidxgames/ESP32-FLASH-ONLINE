@@ -782,7 +782,7 @@ var e=function(t,i){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Arr
               ${this._info.firmware}&nbsp;${this._info.version}.<br /><br />`:""}
         Do you want to ${i}
         ${this._manifest.name}&nbsp;${this._manifest.version}?
-        ${this._installErase?N`<br /><br />All data on the device will be erased.`:""}
+        ${this._installErase?N`<br /><br />Se borraran los todos datos de tu ESP.`:""}
         <ewt-button
           slot="primaryAction"
           label="Install"
