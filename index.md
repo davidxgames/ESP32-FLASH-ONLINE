@@ -13,7 +13,7 @@ Debo enfatisar que este proyecto de flashear el ESP32 de forma online no es mio,
 ### CONTROLES BLUETOOTH
 
 <img src="imagenes/LOGO CONTROLES.png"
-height="20">
+height="300">
 
 <img src="imagenes/dividir.jpg"
 height="20">
