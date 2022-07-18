@@ -1,5 +1,5 @@
 {
-  "name": "arcade-switch",
+  "name": "test",
   "builds": [
     {
       "chipFamily": "ESP32",
