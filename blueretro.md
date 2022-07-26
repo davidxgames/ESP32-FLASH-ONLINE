@@ -1,7 +1,11 @@
 [VOLVER ](index.md).
 
-<img src=""
-height="300">
+#El sistema Blueretro es creacion de:
+
+<img src="imagenes/darthcloud.png"
+height="100">
+
+Todos los creditos para el por crear el BlueRetro
 
 
 ## version de blueretro 1.6.3
