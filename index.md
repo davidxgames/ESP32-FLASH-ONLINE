@@ -25,6 +25,9 @@ height="20">
 
 ### BLUERETRO PARA TUS CONSOLAS RETRO
 
+<img src="imagenes/LOGO BLUERETRO.png"
+height="200">
+
 [PROGRAMAR ESP32](blueretro.md).
 
 
