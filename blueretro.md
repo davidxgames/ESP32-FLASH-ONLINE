@@ -1,6 +1,6 @@
 [VOLVER ](index.md).
 
-#El sistema Blueretro es creacion de:
+# El sistema Blueretro es creacion de:
 
 <img src="imagenes/darthcloud.png"
 height="100">
