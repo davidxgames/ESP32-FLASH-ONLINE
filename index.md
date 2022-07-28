@@ -10,6 +10,19 @@ Esta pagina te servira para programar el esp32 sin nesecidad de un programa, sol
 Debo enfatisar que este proyecto de flashear el ESP32 de forma online no es mio, todos los creditos y gracias a [Witnessmenow](https://github.com/witnessmenow/ESP-Web-Tools-Tutorial). Tambien quiero agradecer a Erving Olvera que siempre esta ai para ayudarme cuando tengo alguna duda, SPYRO GAMES!!!
 
 
+### CONTROLES SWITCH DIY
+
+<img src="imagenes/LOGO CONTROLES.png"
+height="200">
+
+En este proyecto aprenderemos a hacer nuestros controles compatibles con nintendo switch.
+
+[PROGRAMAR ESP32 PARA CREAR CONTROLES SWITCH DIY](controles_switch.md).
+
+
+<img src="imagenes/dividir.jpg"
+height="20">
+
 ### CONTROLES BLUETOOTH
 
 <img src="imagenes/LOGO CONTROLES.png"
