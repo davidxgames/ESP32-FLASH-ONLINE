@@ -22,7 +22,7 @@ height="20">
 
 ### Nuestro segundo control sera el de NINTENDO 64
 
-<img src="imagenes/CONTROLsnes.png"
+<img src="imagenes/n64.png"
 height="150">
 
 <script type="module" src="web/install-button.js?module">conectar</script>
