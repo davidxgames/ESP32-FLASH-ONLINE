@@ -17,3 +17,13 @@ height="150">
 <script type="module" src="web/install-button.js?module">conectar</script>
 <esp-web-install-button manifest="proyectos/controles_bluetooth/xgames_snes/manifest.json"></esp-web-install-button>
 
+<img src="imagenes/dividir.jpg"
+height="20">
+
+### Nuestro segundo control sera el de NINTENDO 64
+
+<img src="imagenes/CONTROLsnes.png"
+height="150">
+
+<script type="module" src="web/install-button.js?module">conectar</script>
+<esp-web-install-button manifest="proyectos/controles_bluetooth/xgames_n64/manifest.json"></esp-web-install-button>
