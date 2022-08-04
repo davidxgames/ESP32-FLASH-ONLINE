@@ -15,6 +15,8 @@ Y quiero agradecer a Ervin Olvera por ayudarme a terminar este proyecto.
 <img src="imagenes/CONTROLsnes.png"
 height="150">
 
+### ----------------------------
+
 ###### FIRMWARE DONDE DEBES AGREGAR BOTONES EXTRAS
 
 <script type="module" src="web/install-button.js?module">conectar</script>
