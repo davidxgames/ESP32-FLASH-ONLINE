@@ -15,12 +15,12 @@ Y quiero agradecer a Ervin Olvera por ayudarme a terminar este proyecto.
 <img src="imagenes/CONTROLsnes.png"
 height="150">
 
-### ----------------------------
-
 ###### FIRMWARE DONDE DEBES AGREGAR BOTONES EXTRAS
 
 <script type="module" src="web/install-button.js?module">conectar</script>
 <esp-web-install-button manifest="proyectos/controles_switch/snes/manifest.json"></esp-web-install-button>
+
+### ----------------------------
 
 ###### FIRMWARE DONDE NO DEBES AGREGAR BOTONES EXTRAS
 ###### SELECT+L=ZL SELECT+R=ZR
