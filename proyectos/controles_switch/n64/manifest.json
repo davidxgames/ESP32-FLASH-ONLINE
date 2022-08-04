@@ -1,0 +1,14 @@
+{
+  "name": "switch_n64",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "RetroBlue.bin", "offset": 65536 },
+        { "path": "bootloader.bin", "offset": 4096 },
+        { "path": "partition-table.bin", "offset": 32768 }   
+      ]
+    }
+  ]
+}
