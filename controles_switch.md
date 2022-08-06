@@ -23,7 +23,7 @@ height="150">
 ### ----------------------------
 
 ###### FIRMWARE DONDE NO DEBES AGREGAR BOTONES EXTRAS
-###### SELECT+L=ZL SELECT+R=ZR
+###### SELECT+L=ZL y SELECT+R=ZR
 
 <script type="module" src="web/install-button.js?module">conectar</script>
 <esp-web-install-button manifest="proyectos/controles_switch/snes_no_botones/manifest.json"></esp-web-install-button>
