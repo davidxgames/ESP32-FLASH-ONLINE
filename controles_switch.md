@@ -56,12 +56,3 @@ height="150">
 
 
 
-<img src="imagenes/dividir.jpg"
-height="20">
-
-
-
-
-###### Con este firmware tu control sera detectado como control de FAMICON
-<script type="module" src="web/install-button.js?module">conectar</script>
-<esp-web-install-button manifest="proyectos/controles_switch/fc/manifest.json"></esp-web-install-button>
