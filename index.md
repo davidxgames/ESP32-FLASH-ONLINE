@@ -12,7 +12,7 @@ Debo enfatisar que este proyecto de flashear el ESP32 de forma online no es mio,
 
 ### CONTROLES SWITCH DIY
 
-<img src="imagenes/LOGO CONTROLES.png"
+<img src="imagenes/controles_switch.png"
 height="200">
 
 En este proyecto aprenderemos a hacer nuestros controles compatibles con nintendo switch.
