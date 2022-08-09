@@ -50,10 +50,10 @@ height="20">
 <img src="imagenes/nes.png"
 height="150">
 
-##Con este firmware tu control sera detectado como control de NES
+## Con este firmware tu control sera detectado como control de NES
 <script type="module" src="web/install-button.js?module">conectar</script>
 <esp-web-install-button manifest="proyectos/controles_switch/nes/manifest.json"></esp-web-install-button>
 
-##Con este firmware tu control sera detectado como control de FAMICON
+## Con este firmware tu control sera detectado como control de FAMICON
 <script type="module" src="web/install-button.js?module">conectar</script>
 <esp-web-install-button manifest="proyectos/controles_switch/fc/manifest.json"></esp-web-install-button>
