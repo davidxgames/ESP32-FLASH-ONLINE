@@ -2,7 +2,7 @@
 
 # CONTROLES SWITCH DIY
 
-<img src="imagenes/LOGO CONTROLES.png"
+<img src="imagenes/controles_switch.png"
 height="200">
 
 En este proyecto aprenderemos a convertir nuestros controles en controles compatibbes con nuestro nintendo switch.
@@ -36,7 +36,7 @@ height="20">
 
 ### Nuestro segundo control sera el de N64
 
-<img src="imagenes/n64.png"
+<img src="imagenes/nes.png"
 height="150">
 
 <script type="module" src="web/install-button.js?module">conectar</script>
