@@ -36,7 +36,7 @@ height="20">
 
 ### Nuestro segundo control sera el de N64
 
-<img src="imagenes/nes.png"
+<img src="imagenes/n64.png"
 height="150">
 
 <script type="module" src="web/install-button.js?module">conectar</script>
@@ -45,10 +45,15 @@ height="150">
 <img src="imagenes/dividir.jpg"
 height="20">
 
-### Nuestro segundo control sera el de N64
+### Nuestro tercer control sera el de NES
 
 <img src="imagenes/nes.png"
 height="150">
 
+##Con este firmware tu control sera detectado como control de NES
 <script type="module" src="web/install-button.js?module">conectar</script>
 <esp-web-install-button manifest="proyectos/controles_switch/nes/manifest.json"></esp-web-install-button>
+
+##Con este firmware tu control sera detectado como control de FAMICON
+<script type="module" src="web/install-button.js?module">conectar</script>
+<esp-web-install-button manifest="proyectos/controles_switch/fc/manifest.json"></esp-web-install-button>
