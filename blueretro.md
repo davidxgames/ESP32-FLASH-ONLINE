@@ -39,14 +39,14 @@ height="20">
 <img src="imagenes/dividir.jpg"
 height="20">
 
-### GAME CUBE v1.7
+### GAME CUBE
 <script type="module" src="web/install-button.js?module">"prueba"</script>
 <esp-web-install-button manifest="proyectos/blueretro/ngc/manifest.json"></esp-web-install-button>
 
 <img src="imagenes/dividir.jpg"
 height="20">
 
-### WII v1.7
+### WII externo
 <script type="module" src="web/install-button.js?module">"prueba"</script>
 <esp-web-install-button manifest="proyectos/blueretro/ngc/manifest.json"></esp-web-install-button>
 
