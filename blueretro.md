@@ -53,7 +53,7 @@ height="20">
 <img src="imagenes/dividir.jpg"
 height="20">
 
-### WII interno
+### WII interno NO ESTA LISTO
 <script type="module" src="web/install-button.js?module">"prueba"</script>
 <esp-web-install-button manifest="proyectos/blueretro/wii_int/manifest.json"></esp-web-install-button>
 
