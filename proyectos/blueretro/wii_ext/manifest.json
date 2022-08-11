@@ -1,0 +1,14 @@
+{
+  "name": "blueretro_wii_ext",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "BlueRetro_wii_ext_external.bin", "offset": 65536 },
+        { "path": "bootloader.bin", "offset": 4096 },
+        { "path": "partition-table.bin", "offset": 32768 }   
+      ]
+    }
+  ]
+}
