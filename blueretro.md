@@ -48,7 +48,14 @@ height="20">
 
 ### WII externo
 <script type="module" src="web/install-button.js?module">"prueba"</script>
-<esp-web-install-button manifest="proyectos/blueretro/ngc/manifest.json"></esp-web-install-button>
+<esp-web-install-button manifest="proyectos/blueretro/wii_ext/manifest.json"></esp-web-install-button>
+
+<img src="imagenes/dividir.jpg"
+height="20">
+
+### WII interno
+<script type="module" src="web/install-button.js?module">"prueba"</script>
+<esp-web-install-button manifest="proyectos/blueretro/wii_int/manifest.json"></esp-web-install-button>
 
 <img src="imagenes/dividir.jpg"
 height="20">
