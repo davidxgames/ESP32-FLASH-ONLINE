@@ -8,7 +8,7 @@ height="100">
 Todos los creditos para el por crear el BlueRetro
 
 
-## version de blueretro 1.6.3
+## version de blueretro 1.7.1
 se actualizara cuando salga una nueva version
 
 
