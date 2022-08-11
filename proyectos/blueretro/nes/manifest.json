@@ -1,0 +1,14 @@
+{
+  "name": "blueretro_nes",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "BlueRetro_nes_external.bin", "offset": 65536 },
+        { "path": "bootloader.bin", "offset": 4096 },
+        { "path": "partition-table.bin", "offset": 32768 }   
+      ]
+    }
+  ]
+}
