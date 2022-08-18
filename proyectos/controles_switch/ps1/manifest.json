@@ -1,5 +1,5 @@
 {
-  "name": "switchx_nes",
+  "name": "switchx_ps1",
   "builds": [
     {
       "chipFamily": "ESP32",
