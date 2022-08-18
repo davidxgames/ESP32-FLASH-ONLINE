@@ -58,3 +58,15 @@ height="150">
 <script type="module" src="web/install-button.js?module">conectar</script>
 <esp-web-install-button manifest="proyectos/controles_switch/fc/manifest.json"></esp-web-install-button>
 
+<img src="imagenes/dividir.jpg"
+height="20">
+
+### Nuestro tercer control sera el de PS1
+
+<img src="imagenes/PS1.png"
+height="150">
+
+<script type="module" src="web/install-button.js?module">conectar</script>
+<esp-web-install-button manifest="proyectos/controles_switch/ps1/manifest.json"></esp-web-install-button>
+
+
