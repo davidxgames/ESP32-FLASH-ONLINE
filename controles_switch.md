@@ -61,7 +61,7 @@ height="150">
 <img src="imagenes/dividir.jpg"
 height="20">
 
-### Nuestro tercer control sera el de PS1
+### Nuestro cuarto control sera el de PS1
 
 <img src="imagenes/PS1.png"
 height="150">
