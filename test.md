@@ -15,6 +15,6 @@
   // preload bg images
   var img1 = new Image();
   var img2 = new Image();
-  img1.src="imagenes/pswitch_h.png";
-  img2.src="imagenes/pswitch_p.png";
+  img1.src="pswitch_h.png";
+  img2.src="pswitch_p.png";
 </script>
