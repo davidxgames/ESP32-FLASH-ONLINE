@@ -1,5 +1,8 @@
-  <esp-web-install-button manifest="proyectos/controles_bluetooth/xgames_snes/manifest.json"></esp-web-install-button>
-
+ 
+ 
+ 
+ 
+ <esp-web-install-button manifest="proyectos/controles_bluetooth/xgames_snes/manifest.json"></esp-web-install-button>
   <input class="btn" type="button" slot="activate"/>
   <span slot="unsupported">Ah snap, your browser does not support WebSerial API! If you are using a mobile browser, this is expected. Please, move to the desktop version.</span>
   <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>
