@@ -9,12 +9,12 @@
 height="250">
 </p>
 
-Camaradas este proyecto tiene años que loquiero hacer, pero hoy por fin lo e logrado y lo programadado yo!! desde cero? claro que no!!
-Me utilizado la mejor libreria de arduino para utilizar pantallas y es "Arduino GFX" y su su creador es @moononournation (https://github.com/moononournation) tan facil de usar es que alguien como yo que estudio nada de programacion la pude usar!!
+Camaradas este proyecto tiene años que lo quiero hacer, pero hoy por fin lo logre, y lo programadado yo!! desde cero? claro que no!!
+Use la mejor libreria de arduino para utilizar pantallas y es "Arduino GFX" y su su creador es @moononournation (https://github.com/moononournation) tan facil de usar es que alguien como yo que no estudio nada de programacion, la pudo usar!!
 
 Tambien quiero agradecer como siempre al camarada Ervig Olvera que pronto nos sorprendera con algo nuevo. Tambien al camarada Jorge Belman quien se afrecio ayudarme con la edicion de las imagenes, gracias camarada!!!
 
-Y hoy estrenamos boton para flashear nuestro esp32, un POWER SWITCH y que mejor forma de empezar a usarlo con un proyecto tan nintendero como este.
+Y hoy, estrenamos boton para flashear nuestro esp32, un POWER SWITCH!!! y que mejor forma de empezar a usarlo con un proyecto tan nintendero como este.
 
 
 
