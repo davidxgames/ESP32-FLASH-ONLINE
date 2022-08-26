@@ -9,6 +9,9 @@
 height="250">
 </p>
 
+<script type="module" src="web/install-button.js?module">conectar</script>
+<esp-web-install-button manifest="proyectos/diy/cartucho_nes/manifest.json"></esp-web-install-button>
+
 Camaradas este proyecto tiene años que lo quiero hacer, pero hoy por fin lo logre, y lo programadado yo!! desde cero? claro que no!!
 Use la mejor libreria de arduino para utilizar pantallas y es "Arduino GFX" y su su creador es @moononournation (https://github.com/moononournation) tan facil de usar es que alguien como yo que no estudio nada de programacion, la pudo usar!!
 
