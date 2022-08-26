@@ -19,7 +19,7 @@ Y hoy, estrenamos boton para flashear nuestro esp32, un POWER SWITCH!!! y que me
 
 
 
- <esp-web-install-button manifest="proyectos/controles_bluetooth/xgames_snes/manifest.json">
+ <esp-web-install-button manifest="proyectos/diy/cartucho_nes/manifest.json">
  
   <script type="module" src="web/install-button.js?module">conectar</script>
   <input class="btn" type="button" slot="activate"/>
