@@ -19,8 +19,7 @@ Y hoy, estrenamos boton para flashear nuestro esp32, un POWER SWITCH!!! y que me
 
 
 
- <esp-web-install-button manifest="proyectos/diy/cartucho_nes/manifest.json">
- 
+ <esp-web-install-button manifest="proyectos/diy/cartucho_nes/manifest.json"> 
   <script type="module" src="web/install-button.js?module">conectar</script>
   <input class="btn" type="button" slot="activate"/>
   <span slot="unsupported">Ah snap, your browser does not support WebSerial API! If you are using a mobile browser, this is expected. Please, move to the desktop version.</span>
