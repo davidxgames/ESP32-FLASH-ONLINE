@@ -6,9 +6,9 @@
       "improv": false,
       "parts": [
         { "path": "boot_app0.bin", "offset": 57344 },
-        { "path": "ImgViewerPng.bin", "offset": 65536 },
-        { "path": "bootloader.bin", "offset": 4096 },
-        { "path": "partitions.bin", "offset": 32768 }   
+        { "path": "ImgViewerPng.ino.bin", "offset": 65536 },
+        { "path": "ImgViewerPng.ino.bootloader.bin", "offset": 4096 },
+        { "path": "ImgViewerPng.ino.partitions.bin", "offset": 32768 }   
       ]
     }
   ]
