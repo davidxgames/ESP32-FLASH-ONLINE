@@ -1,4 +1,8 @@
 
+<img src="imagenes/cartucho.gif"
+height="250">
+
+
 
  <esp-web-install-button manifest="proyectos/controles_bluetooth/xgames_snes/manifest.json">
  
