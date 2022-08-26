@@ -1,5 +1,5 @@
 {
-  "name": "nescartx",
+  "name": "nescartnoboot",
   "builds": [
     {
       "chipFamily": "ESP32",
