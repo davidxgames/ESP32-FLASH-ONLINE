@@ -9,8 +9,6 @@
 height="250">
 </p>
 
-<script type="module" src="https://unpkg.com/esp-web-tools@8.0.3/dist/web/install-button.js?module">conectar</script>
-<esp-web-install-button manifest="proyectos/nescart/manifest.json"></esp-web-install-button>
 
 Camaradas este proyecto tiene años que lo quiero hacer, pero hoy por fin lo logre, y lo programadado yo!! desde cero? claro que no!!
 Use la mejor libreria de arduino para utilizar pantallas y es "Arduino GFX" y su su creador es @moononournation (https://github.com/moononournation) tan facil de usar es que alguien como yo que no estudio nada de programacion, la pudo usar!!
@@ -20,6 +18,24 @@ Tambien quiero agradecer como siempre al camarada Ervig Olvera que pronto nos so
 Y hoy, estrenamos boton para flashear nuestro esp32, un POWER SWITCH!!! y que mejor forma de empezar a usarlo con un proyecto tan nintendero como este.
 
 
+ <esp-web-install-button manifest="proyectos/varios/nescart/manifest.json">
+ 
+  <script type="module" src="web/install-button.js?module"></script>
+  <input class="btn" type="button" slot="activate"/>
+  <span slot="unsupported">Ah snap, your browser does not support WebSerial API! If you are using a mobile browser, this is expected. Please, move to the desktop version.</span>
+  <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>
+</esp-web-install-button>
+
+
+
+
+<script>
+  // preload bg images
+  var img1 = new Image();
+  var img2 = new Image();
+  img1.src="pswitch_h.png";
+  img2.src="pswitch_p.png";
+</script>
 
 
 
