@@ -1,25 +1,23 @@
 
 
-
-
-#### ?
-
-PRUEBA
-
-### ---
-s
-
-<script type="module" src="web/install-button.js?module"></script>
-<esp-web-install-button manifest="proyectos/nescart/manifest.json"></esp-web-install-button>
+ <esp-web-install-button manifest="proyectos/controles_bluetooth/xgames_snes/manifest.json">
+ 
+  <script type="module" src="web/install-button.js?module">conectar</script>
+  <input class="btn" type="button" slot="activate"/>
+  <span slot="unsupported">Ah snap, your browser does not support WebSerial API! If you are using a mobile browser, this is expected. Please, move to the desktop version.</span>
+  <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>
+</esp-web-install-button>
 
 
 
 
-<img src="imagenes/division.jpg"
-height="5">
-
-
-
+<script>
+  // preload bg images
+  var img1 = new Image();
+  var img2 = new Image();
+  img1.src="pswitch_h.png";
+  img2.src="pswitch_p.png";
+</script>
 
 
 
