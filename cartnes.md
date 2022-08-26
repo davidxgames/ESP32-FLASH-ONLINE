@@ -9,7 +9,7 @@
 height="250">
 </p>
 
-    <script type="module" src="https://unpkg.com/esp-web-tools@3.4.2/dist/web/install-button.js?module"></script>
+<script type="module" src="https://unpkg.com/esp-web-tools@8.0.3/dist/web/install-button.js?module">conectar</script>
 <esp-web-install-button manifest="proyectos/nescart/manifest.json"></esp-web-install-button>
 
 Camaradas este proyecto tiene años que lo quiero hacer, pero hoy por fin lo logre, y lo programadado yo!! desde cero? claro que no!!
