@@ -1,6 +1,9 @@
 
-<img src="imagenes/cartucho.gif"
+
+<p align="center">
+ <img src="imagenes/cartucho.gif"
 height="250">
+</p>
 
 
 
