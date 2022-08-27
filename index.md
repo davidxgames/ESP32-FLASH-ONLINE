@@ -49,11 +49,16 @@ height="20">
 
 ### COSAS PARA GAMERS
 
-<p align="center">
+
  <img src="imagenes/cartucho.gif"
 height="100">
-</p>
+
 
 [PROGRAMAR ESP32](cartnes.md).
+
+
+<img src="imagenes/dividir.jpg"
+height="20">
+
 
 
