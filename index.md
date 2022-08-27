@@ -47,7 +47,12 @@ height="150">
 <img src="imagenes/dividir.jpg"
 height="20">
 
-### --- (EN PROGRESO)
+### COSAS PARA GAMERS
+
+<p align="center">
+ <img src="imagenes/cartucho.gif"
+height="100">
+</p>
 
 [PROGRAMAR ESP32](cartnes.md).
 
