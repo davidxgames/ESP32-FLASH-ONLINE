@@ -1,0 +1,15 @@
+{
+  "name": "XGAMES NES LABEL",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "boot_app0.bin", "offset": 57344 },
+        { "path": "NCAT_ESP32.ino.bin", "offset": 65536 },
+        { "path": "bootloader_qio_80m.bin", "offset": 4096 },
+        { "path": "NCAT_ESP32.ino.partitions.bin", "offset": 32768 }   
+      ]
+    }
+  ]
+}
