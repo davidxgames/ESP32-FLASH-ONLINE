@@ -5,7 +5,7 @@
 
 
 <p align="center">
- <img src="imagenes/cartucho.gif"
+ <img src="imagenes/ncat.png"
 height="250">
 </p>
 
