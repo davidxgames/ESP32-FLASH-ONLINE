@@ -9,7 +9,7 @@
 height="250">
 </p>
 
-Hace algunos años, vi un proyecto donde usaban un control de SNES y metian dentro una PI ZERO con una pantalla, compre todo lo necesario, pero al igual como me paso con el NES LABEL SLIDER, prefiero hacerlo con materiales mas baratos para que mas se animen a hacerlo. Asi que me decidi por el proyecto de NATHALISLIGTH el [NCAT(https://github.com/nathalislight/NCAT)
+Hace algunos años, vi un proyecto donde usaban un control de SNES y metian dentro una PI ZERO con una pantalla, compre todo lo necesario, pero al igual como me paso con el NES LABEL SLIDER, prefiero hacerlo con materiales mas baratos para que mas se animen a hacerlo. Asi que me decidi por el proyecto de NATHALISLIGTH el [NCAT](https://github.com/nathalislight/NCAT)
 
 
  <esp-web-install-button manifest="proyectos/varios/ncat/manifest.json">
