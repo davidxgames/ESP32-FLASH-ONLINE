@@ -52,7 +52,7 @@ height="20">
 
  <img src="imagenes/cartucho.gif"
 height="150">     <img src="imagenes/ncat.png"
-height="100">
+height="150">
 
 
 [PROGRAMAR ESP32](cartnes.md).
