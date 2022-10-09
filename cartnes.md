@@ -73,6 +73,15 @@ height="20"><img src="imagenes/dividir.jpg"
 height="20">
 
 
+proyectos/varios/duke/controlxbox.gif
+<p align="center">
+ <img src="proyectos/varios/duke/controlxbox.gif"
+height="250">
+</p>
+
+
+
+
  <esp-web-install-button manifest="proyectos/varios/duke/manifest.json">
  
   <script type="module" src="web/install-button.js?module"></script>
