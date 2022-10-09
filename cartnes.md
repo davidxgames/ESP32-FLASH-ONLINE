@@ -72,14 +72,16 @@ Usa este POWER SWITCH con responsabilidad.
 height="20"><img src="imagenes/dividir.jpg"
 height="20">
 
+# XBOX DUKE HYPERKIN DIY
 
-proyectos/varios/duke/controlxbox.gif
 <p align="center">
  <img src="proyectos/varios/duke/controlxbox.gif"
 height="250">
 </p>
 
+Camaradas este proyecto esta inspirado en control que la marca HYPERKIN lanzo en diciembre del 2021, el cual tiene una pantalla y reproduce el inicio de la consola XBOX OG, use la librería "Arduino GFX" y su su creador es @moononournation (https://github.com/moononournation)
 
+El codigo fue creado por mi (muy sencillo je je) y fue mejorado (demaciado) y optimizado por el camarada ERVIN OLVERA, los botones touch fueron agregados por mi. Esta ves estrenamos boton para los proyectos que sean de XBOX.
 
 
  <esp-web-install-button manifest="proyectos/varios/duke/manifest.json">
@@ -90,5 +92,5 @@ height="250">
   <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>
 </esp-web-install-button>
 <p align="center">
-Usa este POWER SWITCH con responsabilidad.
+Preciona el boton A para grabar tu esp32.
 </p>
