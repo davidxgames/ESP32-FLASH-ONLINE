@@ -52,6 +52,7 @@ height="20">
 
  <img src="imagenes/cartucho.gif"
 height="150">     <img src="imagenes/ncat.png"
+height="150"> <img src="proyectos/varios/duke/controlxbox.gif"
 height="150">
 
 
