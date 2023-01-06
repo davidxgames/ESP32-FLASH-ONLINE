@@ -1,5 +1,5 @@
 {
-  "name": "switch_n64",
+  "name": "BLUEGAMEPAD_N64",
   "builds": [
     {
       "chipFamily": "ESP32",
