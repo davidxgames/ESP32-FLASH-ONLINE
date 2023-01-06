@@ -10,6 +10,22 @@ Esta pagina te servira para programar el esp32 sin nesecidad de un programa, sol
 Debo enfatisar que este proyecto de flashear el ESP32 de forma online no es mio, todos los creditos y gracias a [Witnessmenow](https://github.com/witnessmenow/ESP-Web-Tools-Tutorial). Tambien quiero agradecer a Erving Olvera que siempre esta ai para ayudarme cuando tengo alguna duda, SPYRO GAMES!!!
 
 
+
+### CONTROLES BLUEGAMEPAD
+
+<img src="imagenes/controles_switch.png"
+height="200">
+
+En este proyecto aprenderemos a hacer nuestros controles compatibles con SWITCH, BLUERETRO, PC y ANDROID
+
+[PROGRAMAR ESP32 PARA CREAR CONTROLES BLUEGAMEPAD](new_controls.md).
+
+
+<img src="imagenes/dividir.jpg"
+height="20">
+
+
+
 ### CONTROLES SWITCH DIY
 
 <img src="imagenes/controles_switch.png"
