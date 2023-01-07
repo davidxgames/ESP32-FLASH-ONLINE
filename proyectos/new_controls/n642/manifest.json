@@ -1,6 +1,6 @@
     "name": "BlueN64",
     "version": "2023.01.0",
-    "funding_url": "https://github.com/JPZV/Blue-N64-Control-ESP32",
+    "funding_url": "https://github.com/JPZV/Blue-N64_new",
     "new_install_prompt_erase": false,
     "builds": [
       {
