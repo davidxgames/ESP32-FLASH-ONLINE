@@ -6,8 +6,8 @@
       "improv": false,
       "parts": [
         { "path": "blue_n64.bin", "offset": 0 },
-        { "path": "n64-control-switch.bin", "offset": 65536 },
-        { "path": "n64-control-blueretro.bin", "offset": 1114112 }
+        { "path": "partition-table.bin", "offset": 65536 },
+        { "path": "bootloader.bin", "offset": 1114112 }
       ]
     }
   ]
