@@ -1,5 +1,5 @@
 {
-  "name": "BLUE_N64",
+  "name": "BLUE-N64",
   "builds": [
     {
       "chipFamily": "ESP32",
