@@ -10,14 +10,14 @@ Este proyecto esta basado en el trabajo de [mitchellcairns](https://github.com/m
 
 Y quiero agradecer a Ervin Olvera por ayudarme a terminar este proyecto.
 
-### Nuestro primer control sera el de N64
+## CONTROLES COMPATIBLES CON NINTENDO SWITCH Y BLUERETRO, PC, ANDROID
 
 <img src="imagenes/n64.png"
 height="150">
 
 
 
- <esp-web-install-button manifest="proyectos/new_controls/n642/manifest.json">
+ <esp-web-install-button manifest="proyectos/new_controls/n64/manifest.json">
   <script type="module" src="web/install-button.js?module"></script>
   <input class="btn" type="button" slot="activate"/>
   <span slot="unsupported">Ah snap, your browser does not support WebSerial API! If you are using a mobile browser, this is expected. Please, move to the desktop version.</span>
