@@ -12,6 +12,8 @@ Y quiero agradecer a Ervin Olvera por ayudarme a terminar este proyecto.
 
 ## CONTROLES COMPATIBLES CON NINTENDO SWITCH Y BLUERETRO, PC, ANDROID
 
+CUALQUIER PROBLEMA NO OLVIDES CONTACTARNOS EN NUESTRO CANAL DE YPUTUBE
+
 <img src="imagenes/n64.png"
 height="150">
 
