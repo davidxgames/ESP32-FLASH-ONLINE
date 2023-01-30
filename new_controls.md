@@ -5,7 +5,7 @@
 <img src="imagenes/controles_switch.png"
 height="200">
 
-En este proyecto aprenderemos a convertir nuestros controles en controles compatibbes con nuestro nintendo switch.
+En este proyecto aprenderemos a convertir nuestros controles en controles compatibbes con nuestro nintendo SWITCH y BLUERETRP, PC y ANDROID.
 Este proyecto esta basado en el trabajo de [mitchellcairns](https://github.com/mitchellcairns)
 
 Y quiero agradecer a Ervin Olvera por ayudarme a terminar este proyecto.
