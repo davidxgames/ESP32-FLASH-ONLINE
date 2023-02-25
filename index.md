@@ -84,8 +84,6 @@ height="20">
 
 ### MODS CONSOLAS
  <img src="https://phantom-marca.unidadeditorial.es/b735574ec80972e8517c616d6170cd56/crop/0x30/883x526/resize/1320/f/jpg/assets/multimedia/imagenes/2022/06/11/16549018703167.jpg"
-height="150">     <img src="imagenes/ncat.png"
-height="150"> <img src="proyectos/varios/duke/controlxbox.gif"
 height="150">
 
 [PROGRAMAR ESP32](cartnes.md).
