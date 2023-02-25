@@ -1,0 +1,15 @@
+{
+  "name": "SONUSX_360",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "boot_app0.bin", "offset": 57344 },
+        { "path": "SONIDOS_XBOX_360.ino.bin", "offset": 65536 },
+        { "path": "SONIDOS_XBOX_360.ino.bootloader.bin", "offset": 4096 },
+        { "path": "SONIDOS_XBOX_360.ino.partitions.bin", "offset": 32768 }   
+      ]
+    }
+  ]
+}
