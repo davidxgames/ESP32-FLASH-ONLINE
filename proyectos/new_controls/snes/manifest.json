@@ -1,5 +1,5 @@
 {
-  "name": "BlueGamepad_SNES",
+  "name": "BlueGamepad_SNES_NEW",
   "builds": [
     {
       "chipFamily": "ESP32",
