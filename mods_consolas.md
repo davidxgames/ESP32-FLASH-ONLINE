@@ -18,7 +18,7 @@ height="20">
 ### PSP CONSOLIZER
 
 <img src="imagenes/PSP_GIT.png"
-height="150">
+height="300">
 
 
 <script type="module" src="web/install-button.js?module">"prueba"</script>
