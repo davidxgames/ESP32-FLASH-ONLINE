@@ -1,0 +1,14 @@
+{
+  "name": "PSP_CONSOLIZER",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "app-template.bin", "offset": 65536 },
+        { "path": "bootloader.bin", "offset": 4096 },
+        { "path": "partition-table.bin", "offset": 32768 }   
+      ]
+    }
+  ]
+}
