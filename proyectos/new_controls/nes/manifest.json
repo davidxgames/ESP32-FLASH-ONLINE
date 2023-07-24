@@ -1,0 +1,14 @@
+{
+  "name": "BlueGamepad_NES",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "BlueGamepad.bin", "offset": 65536 },
+        { "path": "bootloader.bin", "offset": 4096 },
+        { "path": "partition-table.bin", "offset": 32768 }   
+      ]
+    }
+  ]
+}
