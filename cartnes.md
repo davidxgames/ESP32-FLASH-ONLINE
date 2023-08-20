@@ -42,7 +42,7 @@ Usa este POWER SWITCH con responsabilidad.
 height="20"><img src="imagenes/dividir.jpg"
 height="20">
 
-# NES Label Slider para pantalla con driver ILI9488
+### NES Label Slider para pantalla con driver ILI9488
 
  <esp-web-install-button manifest="proyectos/varios/nescart/ILI9488/manifest.json">
  
@@ -64,6 +64,10 @@ Usa este POWER SWITCH con responsabilidad.
   img1.src="pswitch_h.png";
   img2.src="pswitch_p.png";
 </script>
+
+<img src="imagenes/dividir.jpg"
+height="20"><img src="imagenes/dividir.jpg"
+height="20">
 
 # NCAT
 
