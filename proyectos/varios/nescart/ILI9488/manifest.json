@@ -1,0 +1,15 @@
+{
+  "name": "NES LABELILI9488 v3",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "boot_app0.bin", "offset": 57344 },
+        { "path": "IMAGEN-AUDIO-GIF-RELOJ.ino.bin", "offset": 65536 },
+        { "path": "IMAGEN-AUDIO-GIF-RELOJ.ino.bootloader.bin", "offset": 4096 },
+        { "path": "IMAGEN-AUDIO-GIF-RELOJ.ino.partitions.bin", "offset": 32768 }   
+      ]
+    }
+  ]
+}
