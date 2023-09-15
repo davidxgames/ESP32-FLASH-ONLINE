@@ -1,1 +1,12 @@
-1
+{
+  "name": "XGAMES NES LABEL V2",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "nes_label_v2.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
