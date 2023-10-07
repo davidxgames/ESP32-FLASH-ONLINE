@@ -1,0 +1,12 @@
+{
+  "name": "ESPiibo",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "nes_label_v2.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
