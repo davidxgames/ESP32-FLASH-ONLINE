@@ -33,7 +33,7 @@ height="20">
 ### Espiibo amiibos en tu ESP32 (EasyCon)
 
 <img src="imagenes/ESPiibo.png"
-height="300">
+height="250">
 
 
 <script type="module" src="web/install-button.js?module">"prueba"</script>
