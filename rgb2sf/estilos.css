@@ -1,3 +1,7 @@
 #emulator-section {
   display: none;
 }
+
+#save-files-section {
+    display: none;
+}
