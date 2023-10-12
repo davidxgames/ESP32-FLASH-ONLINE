@@ -357,19 +357,11 @@
             }
 
             async function convertROMsAsFiles(roms) {
-                const saveType = "SRAM (64drive)";
-                //const saveType = document.getElementById('save-type');
+                const saveType = document.getElementById('save-type');
                 const padMB = document.getElementById('pad-mb');
-                const dmgBootFileURL = 'dmg_boot.bin'; // Ruta relativa al archivo dmgBoot en la raíz
-                const cgbBiosFileURL = 'cgb_boot.bin'; // Ruta relativa al archivo cgbBios en la raíz
-
-                // Realiza la carga de los archivos directamente desde las ubicaciones en el servidor.
-                const dmgBootFile = await fetch(dmgBootFileURL).then(response => response.arrayBuffer());
-                const cgbBiosFile = await fetch(cgbBiosFileURL).then(response => response.arrayBuffer());
-
-                //const biosFiles = await readBIOSFiles();
-                //const dmgBootFile = biosFiles.dmgBootFile;
-                //onst cgbBiosFile = biosFiles.cgbBiosFile;
+                const biosFiles = await readBIOSFiles();
+                const dmgBootFile = biosFiles.dmgBootFile;
+                const cgbBiosFile = biosFiles.cgbBiosFile;
 
                 const zip = new JSZip();
                 const duplicateFiles = new Set();
@@ -456,10 +448,30 @@
                             </div>
                         </div>
                         <div class="form-section">
+                            <h2>Emulator for Everdrive</h2>
+                            <div>
+                                <input
+                                    class="download-button"
+                                    value="Download Emulator"
+                                    type="submit"
+                                    onclick="downloadEV()"
+                                >
+                            </div>
+                            <p>
+                                If you put gb.v64 and gbc.v64 from the download link above into
+                                the folder ED64/emu on your everdrive you can play gameboy ROMs directly
+                                without having convert them individually.
+                            </p>
                         </div>
                     </div>
                     <div class="bios-section">
                         <div class="form-section">
+                            <h2>Bios</h2>
+                            <p>
+                                Use a bios to get the gameboy startup animation with
+                                the nintendo or gameboy logo. Don't include them to
+                                skip the animation and boot directly into the game.
+                            </p>
                             <div class="file-input">
                                 <label for="dmgBoot">dmg_boot.bin (optional) used for original gameboy</label>
                                 <input id="dmgBoot" type="file" accept=".bin">
@@ -469,8 +481,46 @@
                                 <input id="cgbBios" type="file" accept=".bin">
                             </div>
                         </div>
+                        <div class="form-section">
+                            <h2>Save Type</h2>
+                            <p>Use SRAM instead if you have trouble saving on 64drive.</p>
+                            <select id="save-type">
+                                <option>FLASH</option>
+                                <option>SRAM (64drive)</option>
+                            </select>
+                        </div>
+                        <div class="form-section">
+                            <h2>Pad to MB</h2>
+                            <p>Retroblaster requires the ROM to be an even multiple of a megabyte. Check this to apply padding to the output ROM to size it up to the next MB. </p>
+                            <input id="pad-mb" type="checkbox">
+                            <label for="pad-mb">Add padding</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="version">V 3.2</div>
+                <div class="error-log">
+                </div>
                 <div>
-                    
+                    <h2>Getting save files to work on Everdrive</h2>
+                    <p>
+                        If you are using EV X7 you can skip this step.
+                        
+                        The emulator uses flashram to save. To get this to work with everdrive V 3 or lower you 
+                        need to specify that in save_db.txt using the rom's CRC code. By adding the codes generated 
+                        below when you convert a rom.
+                    </p>
+                    <div class="save-db">
+                        <div class="placeholder">
+                            (CRC code will appear here when you convert a rom)
+                        </div>
+                    </div>
+                    <p>
+                        This emulator supports save states. Press down C to save. Hold up C to load a save state.
+                        When staring a ROM it will not load the entire save state by default. It will only load the
+                        GameBoy cartridge ram emulating the behavior of the GameBoy. If you want a save file to load
+                        from a fresh boot you first need to save the game inside the emulator then create the save state
+                        with down C. 
+                    </p>
                 </div>
                 <div>
                     <h2>Default Controls</h2>
