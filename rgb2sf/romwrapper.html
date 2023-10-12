@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-  <link rel="stylesheet" type="text/css" href="estilos.css">
         <title>GB64</title>
         <script src="crc.js"></script>
         <script src="https://stuk.github.io/jszip/dist/jszip.js"></script>
@@ -446,57 +445,9 @@
                                     type="submit" 
                                     onclick="convertROM()"
                                 >
-                                <div>
-                                <br>
-                                    
-                    <h2>Default Controls</h2>
-                    <table>
-                        <thead>
-                            <tr>
-                                <td>Action</td>
-                                <td>Button</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>A</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>B</td>
-                                <td>B</td>
-                            </tr>
-                            <tr>
-                                <td>Start</td>
-                                <td>Start</td>
-                            </tr>
-                            <tr>
-                                <td>Select</td>
-                                <td>Z</td>
-                            </tr>
-                            <tr>
-                                <td>Save</td>
-                                <td>C Down</td>
-                            </tr>
-                            <tr>
-                                <td>Load Save State</td>
-                                <td>C Up</td>
-                            </tr>
-                            <tr>
-                                <td>Fast Forward</td>
-                                <td>C Right</td>
-                            </tr>
-                            <tr>
-                                <td>Menu</td>
-                                <td>C Left</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
                             </div>
                         </div>
-                        <div clas<div class="form-section" id="emulator-section">
-                            s="form-section">
+                        <div class="form-section">
                             <h2>Emulator for Everdrive</h2>
                             <div>
                                 <input
@@ -512,7 +463,6 @@
                                 without having convert them individually.
                             </p>
                         </div>
-                    </div>
                     </div>
                     <div class="bios-section">
                         <div class="form-section">
@@ -536,11 +486,10 @@
                             <p>Use SRAM instead if you have trouble saving on 64drive.</p>
                             <select id="save-type">
                                 <option>FLASH</option>
-                                <option>SRAM (64drive)</option>                          
+                                <option>SRAM (64drive)</option>
                             </select>
                         </div>
                         <div class="form-section">
-                            <div class="form-section" id="emulator-section">
                             <h2>Pad to MB</h2>
                             <p>Retroblaster requires the ROM to be an even multiple of a megabyte. Check this to apply padding to the output ROM to size it up to the next MB. </p>
                             <input id="pad-mb" type="checkbox">
@@ -552,7 +501,6 @@
                 <div class="error-log">
                 </div>
                 <div>
-                    <div class="form-section" id="emulator-section">
                     <h2>Getting save files to work on Everdrive</h2>
                     <p>
                         If you are using EV X7 you can skip this step.
@@ -574,9 +522,6 @@
                         with down C. 
                     </p>
                 </div>
-                 </div>
-            </div>
-            </div>
                 <div>
                     <h2>Default Controls</h2>
                     <table>
