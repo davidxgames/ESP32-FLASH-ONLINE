@@ -358,7 +358,7 @@
             }
 
             async function convertROMsAsFiles(roms) {
-                const saveType = document.getElementById('save-type');
+                const saveType = "SRAM (64drive)";
                 const padMB = document.getElementById('pad-mb');
                 const biosFiles = await readBIOSFiles();
                 const dmgBootFile = biosFiles.dmgBootFile;
