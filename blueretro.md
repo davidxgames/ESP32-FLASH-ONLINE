@@ -80,6 +80,15 @@ height="20">
 <img src="imagenes/dividir.jpg"
 height="20">
 
+### BLUE-OGX
+<script type="module" src="web/install-button.js?module"></script>
+<esp-web-install-button manifest="proyectos/blueretro/blueogx/manifest.json"></esp-web-install-button>
+
+
+
+<img src="imagenes/dividir.jpg"
+height="20">
+
 
 
 
