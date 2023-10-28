@@ -1,0 +1,12 @@
+{
+  "name": "BLUE-OGX",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "blueogx.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
