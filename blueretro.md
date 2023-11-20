@@ -84,7 +84,8 @@ height="20">
 <script type="module" src="web/install-button.js?module"></script>
 <esp-web-install-button manifest="proyectos/blueretro/blueogx/manifest.json"></esp-web-install-button>
 
-ARCHIVO PARA PROMICRO: https://github.com/davidxgames/ESP32-FLASH-ONLINE/blob/main/proyectos/blueretro/blueogx/BLUE-OGX.rar
+[ARCHIVO PARA PROMICRO:](ttps://github.com/davidxgames/ESP32-FLASH-ONLINE/blob/main/proyectos/blueretro/blueogx/BLUE-OGX.rar).
+h
 
 <img src="imagenes/dividir.jpg"
 height="20">
