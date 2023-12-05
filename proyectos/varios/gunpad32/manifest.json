@@ -1,0 +1,12 @@
+{
+  "name": "GUNPAD32v1",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "bluepad32v1.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
