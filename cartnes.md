@@ -91,7 +91,7 @@ Usa este POWER SWITCH con responsabilidad.
 
 #### horario Madrid España
 
- <esp-web-install-button manifest="proyectos/varios/nescart/v2_madrid/manifest.json">
+ <esp-web-install-button manifest="proyectos/varios/nescart/V2_madrid/manifest.json">
 
   <script type="module" src="web/install-button.js?module"></script>
   <input class="btn" type="button" slot="activate"/>
