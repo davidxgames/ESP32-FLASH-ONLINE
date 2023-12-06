@@ -38,10 +38,6 @@ Usa este POWER SWITCH con responsabilidad.
   img2.src="pswitch_p.png";
 </script>
 
-<img src="imagenes/dividir.jpg"
-height="20"><img src="imagenes/dividir.jpg"
-height="20">
-
 ### NES Label Slider para pantalla con driver ILI9488
 
  <esp-web-install-button manifest="proyectos/varios/nescart/ILI9488/manifest.json">
@@ -73,10 +69,6 @@ height="20">
 Camaradas!! por fin les traigo la version2 de este genial proyecto, me siento muy contento por que este es un proyecto original(en su diseño y programacion) del canal, no solo es hacer los proyectos de otros, si no tambien, crear los propios. Gracias al camarada Ervin OLvera por su apoyo y tambien a todos ustedes, a los miembros del canal que apoyan mes con mes al canal.... GRACIAS DE VERDAD!!!!!
 
  <esp-web-install-button manifest="proyectos/varios/nescart/v2/manifest.json">
-  
-#### horario Madrid España
-
- <esp-web-install-button manifest="proyectos/varios/nescart/v2_madrid/manifest.json">
  
   <script type="module" src="web/install-button.js?module"></script>
   <input class="btn" type="button" slot="activate"/>
@@ -97,6 +89,28 @@ Usa este POWER SWITCH con responsabilidad.
   img2.src="pswitch_p.png";
 </script>
 
+#### horario Madrid España
+
+ <esp-web-install-button manifest="proyectos/varios/nescart/v2_madrid/manifest.json">
+
+  <script type="module" src="web/install-button.js?module"></script>
+  <input class="btn" type="button" slot="activate"/>
+  <span slot="unsupported">Ah snap, your browser does not support WebSerial API! If you are using a mobile browser, this is expected. Please, move to the desktop version.</span>
+  <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>
+</esp-web-install-button>
+<p align="center">
+Usa este POWER SWITCH con responsabilidad.
+</p>
+
+
+
+<script>
+  // preload bg images
+  var img1 = new Image();
+  var img2 = new Image();
+  img1.src="pswitch_h.png";
+  img2.src="pswitch_p.png";
+</script>
 
 
 
