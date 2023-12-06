@@ -73,6 +73,10 @@ height="20">
 Camaradas!! por fin les traigo la version2 de este genial proyecto, me siento muy contento por que este es un proyecto original(en su diseño y programacion) del canal, no solo es hacer los proyectos de otros, si no tambien, crear los propios. Gracias al camarada Ervin OLvera por su apoyo y tambien a todos ustedes, a los miembros del canal que apoyan mes con mes al canal.... GRACIAS DE VERDAD!!!!!
 
  <esp-web-install-button manifest="proyectos/varios/nescart/v2/manifest.json">
+  
+#### horario Madrid España
+
+ <esp-web-install-button manifest="proyectos/varios/nescart/v2_madrid/manifest.json">
  
   <script type="module" src="web/install-button.js?module"></script>
   <input class="btn" type="button" slot="activate"/>
