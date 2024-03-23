@@ -1,0 +1,12 @@
+{
+  "name": "XGAMES NES LABEL TOUCH",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "nes_label_touch.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
