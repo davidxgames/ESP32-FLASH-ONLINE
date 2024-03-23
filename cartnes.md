@@ -115,7 +115,7 @@ Usa este POWER SWITCH con responsabilidad.
 
 
 
-#### NES LABEL SLIDER TOUCH
+# NES LABEL SLIDER TOUCH
 
  <esp-web-install-button manifest="proyectos/varios/nescart/touch/manifest.json">
 
