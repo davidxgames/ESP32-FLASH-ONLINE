@@ -115,9 +115,9 @@ Usa este POWER SWITCH con responsabilidad.
 
 
 
-#### horario Madrid España
+#### NES LABEL SLIDER TOUCH
 
- <esp-web-install-button manifest="proyectos/varios/nescart/V2_madrid/manifest.json">
+ <esp-web-install-button manifest="proyectos/varios/nescart/touch/manifest.json">
 
   <script type="module" src="web/install-button.js?module"></script>
   <input class="btn" type="button" slot="activate"/>
