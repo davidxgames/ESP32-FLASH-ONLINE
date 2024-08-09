@@ -77,7 +77,7 @@ height="20">
 
 # CONTROLES BLUEGAMEPAD + RUMBLE
 
-### CONTROL GATILLOS ANALOGOS - XBOX360 - MECUBE - GENERICOS
+### CONTROL GATILLOS ANALOGOS - XBOX360 - GAMECUBE - GENERICOS
 
  <esp-web-install-button manifest="proyectos/new_controls/XBOX360_RUMBLE/manifest.json">
   <script type="module" src="web/install-button.js?module"></script>
