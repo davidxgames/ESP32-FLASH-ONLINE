@@ -1,0 +1,12 @@
+{
+  "name": "SCREEN2X360",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "screen2x360.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
