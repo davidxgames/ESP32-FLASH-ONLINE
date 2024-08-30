@@ -45,7 +45,7 @@ height="250">
 <img src="imagenes/dividir.jpg"
 height="20">
 
-# MOD SREEN2X360
+# MOD SCREEN2X360
 ### AGREGA UN PANTALLA A TU XBOX 360
 
 <script type="module" src="web/install-button.js?module">"prueba"</script>
