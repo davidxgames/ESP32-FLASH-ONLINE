@@ -48,5 +48,8 @@ height="20">
 # MOD SCREEN2X360
 ### AGREGA UN PANTALLA A TU XBOX 360
 
+<img src="imagenes/screen2x360.png"
+height="250">
+
 <script type="module" src="web/install-button.js?module">"prueba"</script>
 <esp-web-install-button manifest="proyectos/varios/screen2x360/manifest.json"></esp-web-install-button>
