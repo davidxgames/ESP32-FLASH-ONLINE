@@ -1,5 +1,5 @@
 {
-  "name": "SCREEN2X360",
+  "name": "LED_16X16",
   "builds": [
     {
       "chipFamily": "ESP32",
