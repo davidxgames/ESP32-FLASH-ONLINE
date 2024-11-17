@@ -1,11 +1,11 @@
 {
-  "name": "SCREEN2X360",
+  "name": "LED_16X16_WEB",
   "builds": [
     {
       "chipFamily": "ESP32",
       "improv": false,
       "parts": [
-        { "path": "screen2x360.bin", "offset": 0 }
+        { "path": "LEDS_16X16_web.bin", "offset": 0 }
       ]
     }
   ]
