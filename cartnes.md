@@ -196,3 +196,13 @@ El codigo fue creado por mi (muy sencillo je je) y fue mejorado (demaciado) y op
 <p align="center">
 Preciona el boton A para grabar tu esp32.
 </p>
+
+<img src="imagenes/dividir.jpg"
+height="20"><img src="imagenes/dividir.jpg"
+height="20">
+
+# MATRIZ DE LEDS ANIMADA/sensor 
+
+<img src="imagenes/MATRIS16.png"
+height="20"><img src="imagenes/dividir.jpg"
+height="20">
