@@ -203,6 +203,12 @@ height="20">
 
 # MATRIZ DE LEDS ANIMADA/sensor 
 
-<img src="imagenes/MATRIS16.png"
-height="20"><img src="imagenes/dividir.jpg"
-height="20">
+<p align="center">
+ <img src="imagenes/MATRIS16.png"
+height="250">
+</p>
+
+### CON BOTONES
+
+
+### CON WIFI
