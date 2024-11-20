@@ -210,7 +210,7 @@ height="250">
 
 ### CON BOTONES
 <script type="module" src="web/install-button.js?module">"prueba"</script>
-<esp-web-install-button manifest="proyectos/varios/matriz/led16_16"></esp-web-install-button>
+<esp-web-install-button manifest="proyectos/varios/matriz/led16_16/manifest.json"></esp-web-install-button>
 
 ### CON WIFI
 
