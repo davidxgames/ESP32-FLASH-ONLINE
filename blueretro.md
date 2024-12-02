@@ -46,6 +46,13 @@ height="20">
 <img src="imagenes/dividir.jpg"
 height="20">
 
+### DREAMCAST v24.10_hw1
+<script type="module" src="web/install-button.js?module">"prueba"</script>
+<esp-web-install-button manifest="proyectos/blueretro/dreamcast/manifest.json"></esp-web-install-button>
+
+<img src="imagenes/dividir.jpg"
+height="20">
+
 ### WII externo
 <script type="module" src="web/install-button.js?module">"prueba"</script>
 <esp-web-install-button manifest="proyectos/blueretro/wii_ext/manifest.json"></esp-web-install-button>
