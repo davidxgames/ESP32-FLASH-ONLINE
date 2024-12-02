@@ -1,0 +1,12 @@
+{
+  "name": "BLUE-DREAM",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "dreamcast.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
